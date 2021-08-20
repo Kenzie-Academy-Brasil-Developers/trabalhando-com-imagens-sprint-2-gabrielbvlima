@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+
+h1 {
+    text-align: center;
+    font-family: 'Supermercado One';
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ol {
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#pictureframe {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+}
+
+#trophy {
+    position: absolute;
+    left: 70%;
+    top: 40px;
+}
